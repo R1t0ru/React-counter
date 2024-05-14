@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 export default function counter() {
 
-    const [Num, setNum] = useState(0);
+    const [Num, setNum] = useState(10);
     
     return(
     <div className={styles.background}>

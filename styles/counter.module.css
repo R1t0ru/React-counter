@@ -16,6 +16,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: 5px 5px 5px grey, 5px 7px 7px white;
+}
+
+.counterItems:hover{
     background-image: url('../public/pictures/racoon-raccoon.gif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +29,8 @@
     top: 50%;
     left: 50%;
     font-size: 4rem;
-    color: aqua;
+    color: red;
+    text-shadow: 5px 0px 5px black;
 }
 
 .count{
@@ -35,6 +39,7 @@
     text-align: center;
     font-size: 5rem;
     color: red;
+    text-shadow: 5px 0px 5px white;
 }
 
 .img{
@@ -58,4 +63,11 @@
     background-color: black;
     border-color: red;
     border-radius: 50%;
+    box-shadow: 0px 10px 5px rgb(50, 50, 50), 0px 13px 7px red;
+}
+
+.button:hover{
+    transform: translateY(5px);
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 5px 5px rgb(100, 100, 100), 0px 8px 7px red;
 }
